@@ -1,0 +1,113 @@
+					%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  TEMPLATE FOR THE MATHEMATICS FINAL DEGREE DISSERTATION (ZTF-FCT, UPV/EHU)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%
+%
+%  Do not change.
+%
+%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,oneside,onpenany]{report}
+\usepackage{TFG}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Put here your definitions (or in the file TFG.sty).
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DeclareMathOperator{\ctg}{ctg}
+\DeclareMathOperator{\tg}{tg}
+\DeclareMathOperator{\csec}{csec}
+\DeclareMathOperator{\id}{id}
+
+%%%%%%%%%%%%%%%%%%
+%
+%  Do not change.
+%
+%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  1. Fill in:
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\dissertationtitle{Interim Report\\Mathematics of Planet Earth CDT}
+\name{\huge{Manuel Santos Guti\'{e}rrez}}
+
+\ttoday{\Large{December 2017}}
+
+%%%%%%%%%%%%%%%%%%%%%
+%
+%  Do not change.
+%
+%%%%%%%%%%%%%%%%%%%%%
+
+\maketitle
+%\thispagestyle{empty}
+%\pagestyle{plain}
+%\tableofcontents
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+%\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhead[LO]{\slshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\thepage}
+\fancyhead[LE]{\thepage}
+\fancyhead[RE]{\slshape\nouppercase{\rightmark}}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  2. The Introduction is mandatory. Other parts (Objectives, Summary, Conclusions, etc.)
+%     can be added before the chapters using the instruction \includehere{filename}.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\includehere{Chapter1}
+%\includehere{Summary}
+%\includehere{Objectives}
+
+%%%%%%%%%%%%%%%%%%
+%
+%  Do not change.
+%
+%%%%%%%%%%%%%%%%%%
+
+
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter. #1}{}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&&%%%%
+%
+%  3. Add a line \includehere{filename} for each chapter.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\includehere{Chapter1}
+%\includehere{Chapter2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&&%%%%%%%%%%%%%%%
+%
+%  4. Before the line \includehere{Bibliography}, add \includehere{filename} for each appendix.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&&%%%%%%%%%%%%%%%
+
+
+\appendices
+%\includehere{AppendixA}
+
+\includehere{Bibliography}
+
+
+\end{document}
