@@ -1,9 +1,34 @@
 
 \noindent In the perturbation analysis of clime models and in general, statistical mechanical models, one has to consider two kinds of sensistivity. First, one has to take into account the dependence of the system to initial conditions often arising from basic assumptions of chaoticity. Secondly, the sensitivity to sudden changes in the parameters of the governing laws are to be studied. This is the problem to be tackled in this project. Based on response theory of statistical mechanical systems we shall make a transfer operator approach in order to extract the dynamical information and formulate a response theory based on this idea.
 
+EXPLAIN TRANSFER OPERATOR (SIMPLE WAY)
+BRIEFLY EXPLAIN CHAPTER 2 IN VALERIO2017
+BRIEF SUMMARY OF CONTENT
+COMMENT ON NOTATION
+\begin{equation}\label{powermethod}
+	\mathcal{M}^n\mathbf{u} \longrightarrow \lambda _1\mathbf{u}
+\end{equation}
 
 \section*{Literature Review}
-The starting point of the project was to study the response of dinamical systems governed by finite dimensional Markov operators, this is, stochastic matrices which are defined as
+The starting point of the project was to study the response of dinamical systems governed by finite dimensional Markov operators. A response theory for these kind of systems was established in VALERIO2017 which was the starting point of the research. The response formula in VALERIO2017 is given by:
+\begin{equation}
+\mathbf{v_1}=\mathbf{u_1} + \sum_{n=1}^{\infty}\epsilon ^{n} \prod _{k=0}^{n}\left( \sum_{k=0}^{\infty}\mathcal{M}^km \right).
+\end{equation}
+The remarkable point here is that the response is calculated at all orders of the perturbation. This formula has been proved to be working for elementary atmospheric models such as Lorenz-63 LORENZ63
+-An atmospheric example on how to extract dynamical information from the spectral information of the transfer operator.
+
+A more general framework exists for this problem. In general given a dynamical system and a flow, the transfer operator is defined as the operator that pushes forward the initial measure of the system.
+LasotaYellowBook
+	-Definition of transfer operator
+
+The finite dimensional Markov chain only provides a model for the actual transfer operator, so natural questions such as well posedness of the problem arise REFERENCE. For the well posedness of the problem, one requires there to exist a spectral gap, namely, that if $\{\lambda_1 , \lambda_2 , \ldots \}$ are the eigenvalues of $\mathcal{M}$ it is the case that $\vert \lambda _1 \vert >  $
+Of course, for finite approximations, this is always the case.
+
+It is always the case that a Markov operator governs the dinamics of the measure of the dynamical system On a general framework, the main results for the well posedness in the case of a class of operators that satisfy a Lasota-Yorke type of inequality (explain?) are provided by LIVERANI. To illustrate the importance of this kind of operators can be done by considering 
+
+Ulam's method
+
+
 
 
 
