@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.9)  5 MAR 2018 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.9)  13 MAR 2018 12:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,7 +327,32 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 LaTeX Warning: Unused global option(s):
     [onpenany].
 
-(./Dissertation.aux (./Chapter1.aux) (./Bibliography.aux))
+(./Dissertation.aux (./Chapter1.aux
+
+LaTeX Warning: Label `henon0' multiply defined.
+
+
+LaTeX Warning: Label `sub@henon0' multiply defined.
+
+
+LaTeX Warning: Label `fig:tiger' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:tiger' multiply defined.
+
+
+LaTeX Warning: Label `henon0' multiply defined.
+
+
+LaTeX Warning: Label `sub@henon0' multiply defined.
+
+
+LaTeX Warning: Label `fig:tiger' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:tiger' multiply defined.
+
+) (./Bibliography.aux))
 \openout1 = `Dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -407,15 +432,15 @@ LaTeX Info: Redefining \nameref on input line 34.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -458,58 +483,150 @@ less on input line 65.
 
 \openout2 = `Chapter1.aux'.
 
-(./Chapter1.tex)pdfTeX warning (ext4): destination with the same identifier (na
-me{page.1}) has been already used, duplicate ignored
+(./Chapter1.texpdfTeX warning (ext4): destination with the same identifier (nam
+e{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \includehere{Chapter1}
-                            [1
+l.23 
+      [1
 
 ]
+
+LaTeX Warning: Reference `interationmethod' on page 2 undefined on input line 2
+6.
+
+[2]
+
+LaTeX Warning: Citation `henon' on page 3 undefined on input line 91.
+
+[3] <invarianthenon.png, id=52, 1124.2pt x 843.15pt>
+File: invarianthenon.png Graphic file (type png)
+ <use invarianthenon.png>
+Package pdftex.def Info: invarianthenon.png used on input line 104.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<henonmap.png, id=53, 1124.2pt x 843.15pt>
+File: henonmap.png Graphic file (type png)
+ <use henonmap.png>
+Package pdftex.def Info: henonmap.png used on input line 110.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<spectrumhenon.png, id=54, 1124.2pt x 843.15pt>
+File: spectrumhenon.png Graphic file (type png)
+ <use spectrumhenon.png>
+Package pdftex.def Info: spectrumhenon.png used on input line 123.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<ruellepollicothenon.png, id=55, 1124.2pt x 843.15pt>
+File: ruellepollicothenon.png Graphic file (type png)
+
+<use ruellepollicothenon.png>
+Package pdftex.def Info: ruellepollicothenon.png used on input line 129.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ [4 <./invarianthenon.png (PNG copy)> <./henonmap.png (PNG copy)>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ <invariantl84.png, id=62, 1124.2pt x 843.15pt>
+File: invariantl84.png Graphic file (type png)
+
+<use invariantl84.png>
+Package pdftex.def Info: invariantl84.png used on input line 142.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ <poincarel84map.png, id=63, 1124.2pt x 843.15pt>
+File: poincarel84map.png Graphic file (type png)
+
+<use poincarel84map.png>
+Package pdftex.def Info: poincarel84map.png used on input line 148.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ <spectruml84.png, id=64, 1124.2pt x 843.15pt>
+File: spectruml84.png Graphic file (type png)
+
+<use spectruml84.png>
+Package pdftex.def Info: spectruml84.png used on input line 160.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ [5 <./spectrumhenon.png (PNG copy)> <./ruellepollicothenon.png (PNG copy)> <./
+invariantl84.png (PNG copy)> <./poincarel84map.png (PNG copy)>] [6 <./spectruml
+84.png (PNG copy)>]
+<l63n10.png, id=82, 1124.2pt x 843.15pt>
+File: l63n10.png Graphic file (type png)
+ <use l63n10.png>
+Package pdftex.def Info: l63n10.png used on input line 191.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<l63n21.png, id=83, 1124.2pt x 843.15pt>
+File: l63n21.png Graphic file (type png)
+ <use l63n21.png>
+Package pdftex.def Info: l63n21.png used on input line 198.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<spectruml63.png, id=85, 1124.2pt x 843.15pt>
+File: spectruml63.png Graphic file (type png)
+ <use spectruml63.png>
+Package pdftex.def Info: spectruml63.png used on input line 209.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<spectralgapl63.png, id=86, 1124.2pt x 843.15pt>
+File: spectralgapl63.png Graphic file (type png)
+ <use spectralgapl63.png>
+Package pdftex.def Info: spectralgapl63.png used on input line 214.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+[7 <./l63n10.png (PNG copy)> <./l63n21.png (PNG copy)> <./spectruml63.png (PNG 
+copy)> <./spectralgapl63.png (PNG copy)>]) [8]
 \openout2 = `Bibliography.aux'.
 
- (./Bibliography.tex) [2
+ (./Bibliography.tex) [9
 
 
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
- (./Dissertation.aux
-(./Chapter1.aux) (./Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+
+(./Dissertation.aux (./Chapter1.aux) (./Bibliography.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 4D3E28C7659474FE6C62CCDE35B940DA;49.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
+(rerunfilecheck)             Checksum: 8526232A9134CD273D6FD29F9EDA7337;50.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 7910 strings out of 492995
- 116932 string characters out of 6132705
- 214289 words of memory out of 5000000
- 11355 multiletter control sequences out of 15000+600000
- 13843 words of font info for 51 fonts, out of 8000000 for 9000
+ 8015 strings out of 492995
+ 118617 string characters out of 6132705
+ 216305 words of memory out of 5000000
+ 11425 multiletter control sequences out of 15000+600000
+ 14318 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,6n,45p,683b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,7n,45p,1122b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dissertation.pdf (3 pages, 139807 bytes).
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Dissertation.pdf (10 pages, 775128 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
