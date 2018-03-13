@@ -9,7 +9,7 @@ COMMENT ON NOTATION
 
 Response theory was developed in the context of statistical mechanics as a tool to understand the behaviour of complex systems affected by perturbations. When the dynamics of the system is are Hamiltonian, a first set of formulas were found REFRENCEKUBO to describe the evolution of perturbations and the statistical properties of the system. It was not until 1997 when David Ruelle REFERENCE established a mathematical framework to deal with response theory for a special class of dynamical systems. One gets that the invariant measure of the system is differentiable under changes in the perturbation control parameter.
 
-One of the main problems in climate modelling is the investigation of the response to perturbations of the external forcing.
+One of the main problems in climate modelling is the investigation of the response to perturbations of the external forcing. The dynamics of climate are far from being Hamiltonian or linear so the invariant measures of the system are not Gaussian, so it is necessary to construct an appropiate way of measuring and estimating the invariant measure of the system LEITH REVIEW. Further, the perturbations in climate models can be non-infinitesimal REVIEW. For this case, a response theory can be found in VULPIANI with a special application to systems possesing fast-slow dynamics (see LACORATA).
 
 Far from being a fixed, there are many approaches to response theory that depend on the character of the governing dynamics, for instance if the system is random or not (REFERENCEREVIEW). It is the case that by analysing suitable operators one can extract information about the dynamics of the system and its statistical properties. These operators arise naturally from a given dynamical system and they describe the evolution of distributions and observables of the domain space. By looking at their spectrum one can compute the invariant measure of the system and infer other dynamical properties of it. This method has been used to study the response of dynamical systems by introducing perturbations directly into these operators and observing the change they provoke in their spectral properties REFERENCEREVIEW, ROUGHPARAMETERDEPENDENCE.
 
@@ -21,7 +21,15 @@ Given a dynamical system $S$ acting on some domain $X$, the \emph{Koopman} opera
 \end{equation}
 for any observable $\phi \in L^{\infty}$. The adjoint of this operator is the \emph{transfer operator}, $T:L^1 \longrightarrow L^1$. In many cases, $L^1$ could be identified with probability density functions, implying that $T$ updates the initial density of the system to its density after the action of the dynamical system. Following the theory presented in REFERENCELASOTA, one can see that the operator norm of $T$ is bounded by $1$ and that constant functions are eigenfunctions of $T$ associated with the eigenvalue $1$ which, by the spectral radius formula, the spectral radius of $T$ is $1$. Clearly, the invariant measure is precisely given by the eigenfunction associated to the eigenvalue $1$.
 
-Liouville equation........
+Suppose that for each value of time $t\geq 0$, $T^t: L^1 \longrightarrow L^1$ maps the initial probability distribution $\rho(\mathbf{x},0)$ to the probability distribution $\rho(\mathbf{x},t)$ at time $t$. We could write this as:
+\begin{equation}\label{keyy}
+	\rho (\mathbf{x},t)= T^t\rho(\mathbf{x},t).
+\end{equation}
+Assuming that $\{T^t\}_{t\geq0}$ is a $C_0$-semigroup\footnote{Bounded for each $t$ and strongly continuous.}, one can find a generator of this semigroup (usually closed and unbounded) called the Liouville operator $\mathbf{L}$ 20VALERIO such that,
+\begin{equation}
+	\partial \rho (\mathbf{x},t)= \mathbf{L}\rho(\mathbf{x},t).
+\end{equation}
+Usually, $\mathbf{L}\psi=-\nabla \cdot (\psi \mathbf{F})$, where $\mathbf{F}$ is the vector field governing the motion. The solution of (\ref{keyy}) is formally given by $T^t=\exp (\mathbf{L}t)$. The foundation of these semigroup concepts lies in the Hille-Yoshida framework PAZY.
 
 After iterating the dynamical system, the updated probability density function is determined by  it always the case that this converges to the desired eigenvevtor? In general, one can only be sure of the convergence in (\ref{interationmethod}) if the eigenvalue $1$ is isolated from the rest of the spectrum, i.e., there is a \emph{spectral gap}. This leads to the well posedness of the dynamical system in order to be able to convergence of the system towards the invatiant measure. Accordingly with the power method for matrices, the spectral gap determines the rate of decay of an initial distribution to the invariant one.
 
@@ -223,3 +231,15 @@ L63
 L84
 
 \section*{Future Work}
+
+The theory concerning Markov operators and their relevance in response theory is that has to be studied in the next stage. The spectral properties of the Markov operators describing the evolution of densities in a system is far from trivial and they can change depending on the system we are dealing with. Also, the well-posedness of response theory for certain dynamical system is an open problem. We shall carry on constructing a background in this topic by reading the results of LIVERANI MAJDA HAIRER BALADI.
+
+The software GAIO uses a set of algorithms that are efficient but not obvious. A deeper understanding of GAIO, particularly of the \texttt{Tree} Matlab class REF, is needed to be able to extract more dynamical information. Using this package, we will continue to reproduce the results in \cite{lucarini} and try to calculate the nonlinear terms in the response operator mentioned, also for the observables $x^2$, $y^2$, $z^2$ and $z$.
+
+It is specially relevant in climate to consider non-infinitesimal perturbations of the system, it is here where it is very relevant to be able to compute the nonlinear terms of the response. REWVIEW
+
+Further, the transfer operators (in general, Markov models) are also a technique used to identify invariant and quasi-invariant sets. This has a wide scope of application when it comes to identifying quasi-invariant sets as suggested in LETTER, where they use a transfer 
+
+The numerical experi
+
+
