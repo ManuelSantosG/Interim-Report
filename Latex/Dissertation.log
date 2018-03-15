@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.9)  14 MAR 2018 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.9)  15 MAR 2018 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -323,6 +323,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \c@problems=\count129
 \margen=\skip59
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
 
 LaTeX Warning: Unused global option(s):
     [onpenany].
@@ -359,20 +362,20 @@ LaTeX Warning: Label `liverani' multiply defined.
 ))
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
@@ -408,7 +411,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -418,9 +421,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count136
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 
 (./Dissertation.out) (./Dissertation.out)
 \@outlinefile=\write3
@@ -461,11 +464,11 @@ LaTeX Info: Redefining \nameref on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -478,11 +481,11 @@ LaTeX Warning: No \author given.
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 64.
+less on input line 65.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 65.
+less on input line 66.
 
 \openout2 = `Chapter1.aux'.
 
@@ -490,124 +493,113 @@ less on input line 65.
 e{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 
+l.18 
       [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-
-LaTeX Warning: Citation `pazy' on page 2 undefined on input line 36.
-
-
-LaTeX Warning: Reference `interationmethod' on page 2 undefined on input line 3
-8.
-
-[2] [3]
-
-LaTeX Warning: Citation `henon' on page 4 undefined on input line 111.
-
-<invarianthenon.png, id=84, 1124.2pt x 843.15pt>
+[2] [3] [4] <invarianthenon.png, id=120, 1124.2pt x 843.15pt>
 File: invarianthenon.png Graphic file (type png)
- <use invarianthenon.png>
-Package pdftex.def Info: invarianthenon.png used on input line 124.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
 
-<henonmap.png, id=85, 1124.2pt x 843.15pt>
+<use invarianthenon.png>
+Package pdftex.def Info: invarianthenon.png used on input line 112.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ <henonmap.png, id=121, 1124.2pt x 843.15pt>
 File: henonmap.png Graphic file (type png)
- <use henonmap.png>
-Package pdftex.def Info: henonmap.png used on input line 130.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
- [4]
-<spectrumhenon.png, id=95, 1124.2pt x 843.15pt>
-File: spectrumhenon.png Graphic file (type png)
- <use spectrumhenon.png>
-Package pdftex.def Info: spectrumhenon.png used on input line 143.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
 
-<ruellepollicothenon.png, id=96, 1124.2pt x 843.15pt>
+<use henonmap.png>
+Package pdftex.def Info: henonmap.png used on input line 118.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ <spectrumhenon.png, id=122, 1124.2pt x 843.15pt>
+File: spectrumhenon.png Graphic file (type png)
+
+<use spectrumhenon.png>
+Package pdftex.def Info: spectrumhenon.png used on input line 131.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ <ruellepollicothenon.png, id=123, 1124.2pt x 843.15pt>
 File: ruellepollicothenon.png Graphic file (type png)
 
 <use ruellepollicothenon.png>
-Package pdftex.def Info: ruellepollicothenon.png used on input line 149.
+Package pdftex.def Info: ruellepollicothenon.png used on input line 137.
 (pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ [5 <./invarianthenon.png (PNG copy)> <./henonmap.png (PNG copy)>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- <invariantl84.png, id=97, 1124.2pt x 843.15pt>
+ <invariantl84.png, id=135, 1124.2pt x 843.15pt>
 File: invariantl84.png Graphic file (type png)
 
 <use invariantl84.png>
-Package pdftex.def Info: invariantl84.png used on input line 162.
+Package pdftex.def Info: invariantl84.png used on input line 152.
 (pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
- <poincarel84map.png, id=98, 1124.2pt x 843.15pt>
+ <poincarel84map.png, id=136, 1124.2pt x 843.15pt>
 File: poincarel84map.png Graphic file (type png)
 
 <use poincarel84map.png>
-Package pdftex.def Info: poincarel84map.png used on input line 168.
+Package pdftex.def Info: poincarel84map.png used on input line 158.
 (pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
- [5 <./invarianthenon.png (PNG copy)> <./henonmap.png (PNG copy)> <./spectrumhe
-non.png (PNG copy)> <./ruellepollicothenon.png (PNG copy)>] <spectruml84.png, i
-d=105, 1124.2pt x 843.15pt>
-File: spectruml84.png Graphic file (type png)
- <use spectruml84.png>
-Package pdftex.def Info: spectruml84.png used on input line 180.
-(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
-
-[6 <./invariantl84.png (PNG copy)> <./poincarel84map.png (PNG copy)> <./spectru
-ml84.png (PNG copy)>] <l63n10.png, id=116, 1124.2pt x 843.15pt>
-File: l63n10.png Graphic file (type png)
-
-<use l63n10.png>
-Package pdftex.def Info: l63n10.png used on input line 211.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
- <l63n21.png, id=117, 1124.2pt x 843.15pt>
-File: l63n21.png Graphic file (type png)
- <use l63n21.png>
-Package pdftex.def Info: l63n21.png used on input line 218.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
-
-<spectruml63.png, id=119, 1124.2pt x 843.15pt>
-File: spectruml63.png Graphic file (type png)
- <use spectruml63.png>
-Package pdftex.def Info: spectruml63.png used on input line 229.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
-
-<spectralgapl63.png, id=120, 1124.2pt x 843.15pt>
-File: spectralgapl63.png Graphic file (type png)
- <use spectralgapl63.png>
-Package pdftex.def Info: spectralgapl63.png used on input line 234.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
-
-[7 <./l63n10.png (PNG copy)> <./l63n21.png (PNG copy)>]
-<l84.png, id=128, 1124.2pt x 843.15pt>
-File: l84.png Graphic file (type png)
- <use l84.png>
-Package pdftex.def Info: l84.png used on input line 245.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
-
-<spectralgapl84.png, id=129, 1124.2pt x 843.15pt>
-File: spectralgapl84.png Graphic file (type png)
- <use spectralgapl84.png>
-Package pdftex.def Info: spectralgapl84.png used on input line 248.
-(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+ <spectruml84.png, id=137, 1124.2pt x 843.15pt>
 File: spectruml84.png Graphic file (type png)
 
 <use spectruml84.png>
-Package pdftex.def Info: spectruml84.png used on input line 251.
+Package pdftex.def Info: spectruml84.png used on input line 170.
+(pdftex.def)             Requested size: 224.83601pt x 168.627pt.
+ [6 <./spectrumhenon.png (PNG copy)> <./ruellepollicothenon.png (PNG copy)> <./
+invariantl84.png (PNG copy)> <./poincarel84map.png (PNG copy)>] [7 <./spectruml
+84.png (PNG copy)>]
+<l63n10.png, id=157, 1124.2pt x 843.15pt>
+File: l63n10.png Graphic file (type png)
+ <use l63n10.png>
+Package pdftex.def Info: l63n10.png used on input line 204.
 (pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
- [8 <./spectruml63.png (PNG copy)> <./spectralgapl63.png (PNG copy)> <./l84.png
- (PNG copy)> <./spectralgapl84.png (PNG copy)>]) [9]
+
+<l63n21.png, id=158, 1124.2pt x 843.15pt>
+File: l63n21.png Graphic file (type png)
+ <use l63n21.png>
+Package pdftex.def Info: l63n21.png used on input line 211.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<spectruml63.png, id=160, 1124.2pt x 843.15pt>
+File: spectruml63.png Graphic file (type png)
+ <use spectruml63.png>
+Package pdftex.def Info: spectruml63.png used on input line 222.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+<spectralgapl63.png, id=161, 1124.2pt x 843.15pt>
+File: spectralgapl63.png Graphic file (type png)
+ <use spectralgapl63.png>
+Package pdftex.def Info: spectralgapl63.png used on input line 227.
+(pdftex.def)             Requested size: 170.71393pt x 128.02376pt.
+
+[8 <./l63n10.png (PNG copy)> <./l63n21.png (PNG copy)> <./spectruml63.png (PNG 
+copy)> <./spectralgapl63.png (PNG copy)>]
+<l84.png, id=170, 1124.2pt x 843.15pt>
+File: l84.png Graphic file (type png)
+ <use l84.png>
+Package pdftex.def Info: l84.png used on input line 241.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+
+<spectralgapl84.png, id=171, 1124.2pt x 843.15pt>
+File: spectralgapl84.png Graphic file (type png)
+ <use spectralgapl84.png>
+Package pdftex.def Info: spectralgapl84.png used on input line 244.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+File: spectruml84.png Graphic file (type png)
+
+<use spectruml84.png>
+Package pdftex.def Info: spectruml84.png used on input line 247.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+ [9 <./l84.png (PNG copy)> <./spectralgapl84.png (PNG copy)>] [10]) [11]
 \openout2 = `Bibliography.aux'.
 
-
-(./Bibliography.tex) [10
+ (./Bibliography.tex [12
 
 
 
@@ -618,56 +610,52 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.liverani
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 \includehere{Bibliography}
-                                ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
- (./Dissertation.aux (./Chapter1.aux)
-(./Bibliography.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+l.49 
+     ]) [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+ (./Dissertation.aux (./Chapter1.aux) (./Bibliography.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: EF7F00E651678C02CCA183B08260EBBF;50.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: A44AF4FD8C4C35DC04E146411FBBFB8F;279.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 8085 strings out of 492995
- 119531 string characters out of 6132705
- 218587 words of memory out of 5000000
- 11468 multiletter control sequences out of 15000+600000
- 17125 words of font info for 64 fonts, out of 8000000 for 9000
+ 8145 strings out of 492995
+ 120476 string characters out of 6132705
+ 220024 words of memory out of 5000000
+ 11507 multiletter control sequences out of 15000+600000
+ 17426 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,8n,45p,1122b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Dissertation.pdf (11 pages, 867520 bytes).
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Dissertation.pdf (14 pages, 890312 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 238 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
